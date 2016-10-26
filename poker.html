@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.js"></script>
+        <title>撲克遊戲</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script type="text/javascript" src="poker.js"></script>
+        
+        <!-- 最新編譯和最佳化的 CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <!-- 選擇性佈景主題 -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+        <!-- 最新編譯和最佳化的 JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <link href="poker.css" rel="stylesheet" />  
+        
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="poker">
+                <div id="logo"></div>
+                <div id="name"></div>
+            </div>
+            <div id="table">
+                <div>
+                    <h2>莊家的牌</h2>
+                    <div id="player1">
+                        <div id="p1_card1" data-card="0" class="cardBack2 border allCardsDisplay cardBG">
+                            <div class="lt design11"></div>
+                            <div class="cen number11"></div>
+                            <div class="rd design11"></div>
+                        </div>
+                        <div id="p1_card2" data-card="1" class="cardBack2 border allCardsDisplay cardBG">
+                            <div class="lt design12"></div>
+                            <div class="cen number12"></div>
+                            <div class="rd design12"></div>
+                        </div>
+                        <div id="p1_card3" data-card="2" class="cardBack2 border allCardsDisplay cardBG">
+                            <div class="lt design13"></div>
+                            <div class="cen number13"></div>
+                            <div class="rd design13"></div>
+                        </div>
+                        <div id="p1_card4" data-card="3" class="cardBack2 border allCardsDisplay cardBG">
+                            <div class="lt design14"></div>
+                            <div class="cen number14"></div>
+                            <div class="rd design14"></div>
+                        </div>
+                        <div id="p1_card5" data-card="4" class="cardBack2 border allCardsDisplay cardBG">
+                            <div class="lt design15"></div>
+                            <div class="cen number15"></div>
+                            <div class="rd design15"></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div id="buttons">   
+                        <button id="give" class="btn btn-success">發牌</button>
+                        <button id="change" class="btn btn-primary">換牌</button>
+                        <button id="show" class="btn btn-warning">攤牌</button>
+                        <button id="new" class="btn btn-danger">新一局</button>
+                    </div> 
+                </div>
+                
+                <div>
+                    <h2>你的牌</h2>
+                    <div id="player2">
+                        <div id="p2_card1" data-card="5" class="cardBack2 border allCardsDisplay cardBG"> 
+                            <div class="lt design21"></div>
+                            <div class="cen number21"></div>
+                            <div class="rd design21"></div>
+                        </div>
+                        <div id="p2_card2" data-card="6" class="cardBack2 border allCardsDisplay cardBG"> 
+                            <div class="lt design22"></div>
+                            <div class="cen number22"></div>
+                            <div class="rd design22"></div>
+                        </div>
+                        <div id="p2_card3" data-card="7" class="cardBack2 border allCardsDisplay cardBG"> 
+                            <div class="lt design23"></div>
+                            <div class="cen number23"></div>
+                            <div class="rd design23"></div>
+                        </div>
+                        <div id="p2_card4" data-card="8" class="cardBack2 border allCardsDisplay cardBG"> 
+                            <div class="lt design24"></div>
+                            <div class="cen number24"></div>
+                            <div class="rd design24"></div>
+                        </div>
+                        <div id="p2_card5" data-card="9" class="cardBack2 border allCardsDisplay cardBG"> 
+                            <div class="lt design25"></div>
+                            <div class="cen number25"></div>
+                            <div class="rd design25"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

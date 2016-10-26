@@ -1,0 +1,45 @@
+/* global css */
+.clearfix:after {clear: both; content: "."; display: block; font-size: 0.1em; height: 0; line-height: 0; visibility: hidden;}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+* html .clearfix select {margin-bottom:1px;}
+
+/* img css */
+img{vertical-align:baseline; }
+
+/* class css */
+.changeCard {background-color: beige; }
+.cardBG{background-color: white; }
+.final {background-color: white; }
+.border {border: 1px solid #ccc; }
+
+
+
+/* 4種花色 */
+.spade {background-image:url(images/poker_spade.png); background-repeat: no-repeat; background-size: 15px 15px; }
+.heart {background-image:url(images/poker_heart.png); background-repeat: no-repeat; background-size: 15px 15px; }
+.diamond {background-image:url(images/poker_diamond.png); background-repeat: no-repeat; background-size: 15px 15px; }
+.club {background-image:url(images/poker_club.png); background-repeat: no-repeat; background-size: 15px 15px; }
+.heart + .cen, .diamond + .cen {color: red; }
+
+/* 每張牌花色跟數字的安放位置 */
+.lt {position: absolute; top:5px; left:5px; width:15px; height:15px; }
+.cen {position: absolute; top:28px; left:13px; width:30px; height:30px; font-size:22px; text-align: center; }
+.rd {position: absolute; right:5px; bottom:5px; width:15px; height:15px; }
+
+/* body css */
+#wrapper{z-index:0; padding-top: 50px; min-width: 800px; min-height: 600px; height: 100vh; background: url(images/pokerBG.jpg)  no-repeat scroll top center; position: relative;}
+#poker{min-width: 500px; text-align: center;padding-top: 10px;}
+#logo{width: 50px  ; height: 75px; background-image: url(images/jude_logo.png); background-repeat: no-repeat; background-size: 100% 100%; z-index: 1; display: inline-block;}
+#name{width: 192px; height: 39px; background-image: url(images/pokerGame.png); background-size: 192px 39px; display: inline-block;}
+#table {width:500px;  margin: 0 auto; text-align: center;}
+#buttons {width:500px; height:50px; text-align:center; line-height:70px; }
+#player2 > div {cursor: pointer; }
+h2{border-radius: 10px; display: inline-block; padding: 5px; width: 250px; background-color: rgba(55,55,55,0.9); color: yellow;}
+
+/* cards css */
+#player1 ,#player2 {width:305px; height:87px; margin: 0 auto; text-align: center;}
+.allCardsDisplay {position:relative; width:57px; height:87px; display:inline-block;}
+.cardBack2 {background-image: url(images/cardBack2.jpg); background-repeat: no-repeat; background-size: 100% 100%; }
+
